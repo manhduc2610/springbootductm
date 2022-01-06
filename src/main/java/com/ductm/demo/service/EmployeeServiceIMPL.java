@@ -20,7 +20,19 @@ public class EmployeeServiceIMPL implements EmployeeService{
 
     @Override
     public List<Employee> getListEmployee() {
-
         return employeeRepo.findAll();
     }
+
+//    @Override
+//    public boolean addUser(Employee emp) {
+//        try {
+//            employeeRepo.addUser(emp.getEmpName(),emp.getEmpId(),"cccc")  ;
+//            return true;
+//        }
+//        catch (Exception exc){
+//            return false;
+//        }
+//
+//    }
+
 }
